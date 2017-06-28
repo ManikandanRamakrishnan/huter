@@ -21,7 +21,7 @@ public class CoinGame {
 		if(player1>player2){
 			System.out.println("Winner Player1 and Sum="+player1);
 		}
-		else if(player1>player2){
+		else if(player1<player2){
 			System.out.println("Winner Player2 and Sum="+player2);
 		}
 		else{
