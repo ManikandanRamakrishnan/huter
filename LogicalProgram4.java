@@ -31,12 +31,6 @@ public class LogicalProgram4 {
 		while(number>0){
 			if(i<list.size()){
 			sum+=Math.pow(number%10,list.get(i));
-				//int mod=number%10;
-				//int power=mod;
-				//for(int j=1;j<list.get(i);j++){
-					//power=power*mod;
-				//}
-				//sum+=power;
 			}
 			number/=10;
 			i++;
