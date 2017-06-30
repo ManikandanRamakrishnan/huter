@@ -34,7 +34,7 @@ public class MaximumProductSubArray31 {
 		        for(int i:list){
 		        	System.out.print(i+" ");
 		        }
-		        System.out.println("Length is "+list.size());
+		      
 		       input.close();
 		    }
 
